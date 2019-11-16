@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Trivia</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="trivia.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+    <div class="mainbody">
+        <div class="inner">
+            <div class="select">
+                <select id="categories">
+                    <option>Loading...</option>
+                </select>
+            </div>
+            <p>
+                <a class="btn" onclick="getQuestion()">New question</a>
+            </p>
+            <div id="qa">
+                <div id="question">Loading...</div>
+                <div id="reveal" onclick="revealAnswer()">Reveal answer</div>
+                <div id="answer"></div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-inner">
+            <p>
+                <a class="personal" href="http://github.com/jackbrookes/trivia">Source code</a>
+            </p>
+            <p>Made by
+                <a class="personal" href="http://jbrookes.com/">Jack Brookes</a> |
+                <a class="personal" href="http://twitter.com/jackbrookes">Twitter</a> |
+                <a class="personal" href="http://github.com/jackbrookes">GitHub</a>
+            </p>
+        </div>
+        <div>
+</body>
+
+
+</html>
